@@ -3,18 +3,6 @@ function regNumbersFactory(){
     var regNumbersEntered = {};
     var countRegNumbers = 0;
 
-    // function selectedRadioBtn(townSelected) {
-    //     if (townSelected === "malmesbury") {
-    //         return regNumbersEntered.startsWith("CK");
-    //     } 
-    //     else if (townSelected === "bellville") {
-    //         return regNumbersEntered.startsWith("CY");
-    //     }
-    //     else if (townSelected === "capetown") {
-    //         return regNumbersEntered.startsWith("CA");
-    //     }
-    // }
-
     function storedReg(regPlate) {
         
         regPlate = regPlate.toUpperCase();
@@ -48,7 +36,6 @@ function regNumbersFactory(){
         storedReg,
         inputReg,
         showStoredReg,
-        // selectedRadioBtn,
         numOfReg,
     }
 }
